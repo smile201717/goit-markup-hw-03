@@ -317,7 +317,8 @@ ul {
 
 .footer {
     background: var(--logo-color);
-
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-name {
@@ -329,6 +330,8 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--button-color);
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .name {
@@ -336,20 +339,19 @@ ul {
     color: var(--safari-color);
 }
 
+/*.container-footer {}*/
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--safari-color);
-    padding-top: 16px;
+    /*padding-top: 16px;*/
     max-width: 264px;
 }
 
-.container-footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+
 
 /*===============PORTFOLIO===============*/
 /*---------------HEADER---------------*/
