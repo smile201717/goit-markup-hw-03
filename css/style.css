@@ -9,6 +9,20 @@ body {
     --safari-color: #F4F4FD;
 }
 
+img {
+    display: block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .link {
     text-decoration: none;
 }
@@ -20,6 +34,9 @@ body {
 
 ul {
     list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /*----------BODY----------*/
@@ -31,8 +48,30 @@ ul {
 
 /*----------HEADER-----------*/
 
+.container {
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    outline: 2px solid red;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
 .header {
     background: #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-name {
@@ -43,7 +82,8 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--button-color)
+    color: var(--button-color);
+    margin-right: 76px;
 }
 
 .header-name span {
@@ -51,7 +91,10 @@ ul {
     color: var(--logo-color);
 }
 
-/*.header-page {}*/
+.header-page {
+    display: flex;
+    gap: 40px;
+}
 
 .header-menu {
     font-weight: 500;
@@ -71,7 +114,10 @@ ul {
     font-style: normal;
 }
 
-/*.header-link {}*/
+.header-link {
+    display: flex;
+    gap: 40px;
+}
 
 .header-link-soc {
     font-weight: 400;
@@ -89,8 +135,14 @@ ul {
 
 /*----------HERO-----------*/
 
-.hero {
+/*.hero {}*/
+
+.hero-container {
+    width: 100%;
+    max-width: 1440px;
+    height: 600px;
     background: var(--logo-color);
+    padding: 188px;
 }
 
 .hero-name {
@@ -102,6 +154,9 @@ ul {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin: auto;
 }
 
 .hero-button {
@@ -116,6 +171,17 @@ ul {
     cursor: pointer;
 }
 
+.hero-button {
+    margin: 0 auto;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    display: block;
+    border: none;
+    border-radius: 4px;
+    margin-top: 48px;
+}
+
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404BBF;
@@ -125,9 +191,16 @@ ul {
 
 /*.scroll {}*/
 
-/*.scroll-list {}*/
+.scroll-list {
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    gap: 24px;
+}
 
-/*.scroll-item {}*/
+.scroll-item {
+    width: calc((100%-72)/4);
+}
 
 .scroll-name {
     font-weight: 500;
@@ -135,6 +208,7 @@ ul {
     line-height: 1.20;
     letter-spacing: 0.02em;
     color: var(--logo-color);
+    margin-bottom: 8px;
 }
 
 .scroll-text {
@@ -157,16 +231,24 @@ ul {
     text-align: center;
     text-transform: capitalize;
     color: var(--logo-color);
+    padding-bottom: 72px;
 }
 
-/*.work-list {}*/
+.work-list {
+    display: flex;
+    margin-bottom: 120px;
 
-/*.work-item {}*/
+}
+
+.work-item {
+    width: calc((100%-48)/3);
+}
 
 /*----------MADE-----------*/
 
 .made {
     background: var(--safari-color);
+    padding-bottom: 120px;
 }
 
 .made-team {
@@ -177,12 +259,19 @@ ul {
     text-align: center;
     text-transform: capitalize;
     color: var(--logo-color);
+    padding-top: 120px;
+    padding-bottom: 72px;
+
 }
 
-/*.made-list {}*/
+.made-list {
+    display: flex;
+    gap: 24px;
+}
 
 .made-item {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    width: 264px;
 }
 
 .made-name {
@@ -191,6 +280,9 @@ ul {
     line-height: 1.20;
     letter-spacing: 0.02em;
     color: var(--logo-color);
+    margin-top: 32px;
+    margin-bottom: 8px;
+    text-align: center;
 }
 
 .made-activity {
@@ -199,12 +291,15 @@ ul {
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 32px;
+    text-align: center;
 }
 
 /*----------FOOTER-----------*/
 
 .footer {
     background: var(--logo-color);
+
 }
 
 .footer-name {
@@ -229,15 +324,37 @@ ul {
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--safari-color);
+    padding-top: 16px;
+    max-width: 264px;
+}
+
+.container-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /*===============PORTFOLIO===============*/
 /*---------------HEADER---------------*/
 
+.header-portfolio {
+    background: #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid;
+}
+
 /*-----------------MAIN-----------------*/
 
 .name-logo {
     color: #2E2F42;
+}
+
+.portfolio-button {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
+
 }
 
 .button-soc {
@@ -260,13 +377,23 @@ ul {
 
 /*-----------------SECTION-----------------*/
 
-/*.section {}*/
+.section {
+    padding: 96px 0 120px;
+}
 
-/*.section-img {}*/
+.section-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    width: 1128px;
+
+}
 
 /*.list {}*/
 
-/*.section-work {}*/
+.section-work {
+    width: 360px;
+}
 
 .section-activity {
     font-weight: 500;
@@ -274,6 +401,9 @@ ul {
     line-height: 1.20;
     letter-spacing: 0.02em;
     color: var(--logo-color);
+    padding-top: 32px;
+    padding-bottom: 8px;
+    padding-left: 16px;
 }
 
 .section-text {
@@ -282,4 +412,6 @@ ul {
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--text-section-color);
+    margin-bottom: 32px;
+    padding-left: 16px;
 }
