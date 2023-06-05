@@ -425,6 +425,9 @@ ul {
 
     border: 1px solid #e7e9fc;
     border-top: none;
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-bottom: 32px;
 }
 
 /*.list {}*/
@@ -440,8 +443,7 @@ ul {
     letter-spacing: 0.02em;
     color: var(--logo-color);
     margin-bottom: 8px;
-    padding-top: 32px;
-    padding-left: 16px;
+
 }
 
 .section-text {
@@ -450,5 +452,4 @@ ul {
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--text-section-color);
-    padding-left: 16px;
 }
