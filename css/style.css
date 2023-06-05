@@ -54,13 +54,15 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
-    outline: 2px solid red;
 }
 
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
@@ -70,8 +72,8 @@ ul {
 
 .header {
     background: #FFFFFF;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
+
 }
 
 .header-name {
@@ -142,7 +144,8 @@ ul {
     max-width: 1440px;
     height: 600px;
     background: var(--logo-color);
-    padding: 188px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-name {
@@ -191,10 +194,17 @@ ul {
 
 /*.scroll {}*/
 
+
+.visually-hidden {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .scroll-list {
     display: flex;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     gap: 24px;
 }
 
@@ -231,23 +241,25 @@ ul {
     text-align: center;
     text-transform: capitalize;
     color: var(--logo-color);
-    padding-bottom: 72px;
+    margin-bottom: 72px;
+    gap: 24px;
 }
 
 .work-list {
     display: flex;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 
 }
 
 .work-item {
-    width: calc((100%-48)/3);
+    width: calc((100%-48px)/3);
 }
 
 /*----------MADE-----------*/
 
 .made {
     background: var(--safari-color);
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -259,8 +271,7 @@ ul {
     text-align: center;
     text-transform: capitalize;
     color: var(--logo-color);
-    padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 
 }
 
@@ -272,6 +283,13 @@ ul {
 .made-item {
     background-color: #FFFFFF;
     width: 264px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.made-container-name {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
 }
 
 .made-name {
@@ -340,7 +358,6 @@ ul {
     background: #FFFFFF;
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px solid;
 }
 
 /*-----------------MAIN-----------------*/
