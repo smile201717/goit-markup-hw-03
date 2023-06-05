@@ -58,9 +58,6 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /*padding-top: 24px;
-    padding-bottom: 24px;*/
-    /*border-bottom: 1px solid #e7e9fc;*/
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -87,8 +84,6 @@ ul {
     text-transform: uppercase;
     color: var(--button-color);
     margin-right: 76px;
-    /* padding-top: 24px;
-    padding-bottom: 24px;*/
 }
 
 .header-name span {
@@ -99,8 +94,6 @@ ul {
 .header-page {
     display: flex;
     gap: 40px;
-    /*padding-top: 24px;
-    padding-bottom: 24px;*/
 }
 
 .header-menu {
@@ -152,8 +145,8 @@ ul {
     max-width: 1440px;
     height: 600px;
     background: var(--logo-color);
-    padding-top: 188px;
-    padding-bottom: 188px;
+
+
 }
 
 .hero-name {
@@ -168,6 +161,8 @@ ul {
     max-width: 496px;
     margin-bottom: 48px;
     margin: auto;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-button {
