@@ -51,9 +51,9 @@ ul {
 .container {
     width: 100%;
     max-width: 1158px;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    margin: auto;
 }
 
 .header-container {
@@ -62,7 +62,7 @@ ul {
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #e7e9fc;
+    /*border-bottom: 1px solid #e7e9fc;*/
 }
 
 .header-navigation {
@@ -72,6 +72,7 @@ ul {
 
 .header {
     background: #FFFFFF;
+    border-bottom: 1px solid #e7e9fc;
 
 
 }
@@ -86,6 +87,8 @@ ul {
     text-transform: uppercase;
     color: var(--button-color);
     margin-right: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-name span {
@@ -360,6 +363,7 @@ ul {
     background: #FFFFFF;
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc
 }
 
 /*-----------------MAIN-----------------*/
