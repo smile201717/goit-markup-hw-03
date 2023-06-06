@@ -72,7 +72,8 @@ ul {
 .header {
     background: #FFFFFF;
     border-bottom: 1px solid #e7e9fc;
-
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 
@@ -140,15 +141,15 @@ ul {
 
 /*----------HERO-----------*/
 
-/*.hero {}*/
+/*.hero {
+}*/
 
 .hero-container {
     width: 100%;
     max-width: 1440px;
     height: 600px;
     background: var(--logo-color);
-    padding-top: 188px;
-    padding-bottom: 188px;
+
 
 }
 
@@ -164,7 +165,8 @@ ul {
     max-width: 496px;
     margin-bottom: 48px;
     margin: auto;
-
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-button {
