@@ -165,8 +165,7 @@ ul {
     max-width: 496px;
     margin-bottom: 48px;
     margin: auto;
-    padding-top: 188px;
-    padding-bottom: 188px;
+
 }
 
 .hero-button {
@@ -179,6 +178,8 @@ ul {
     color: #FFFFFF;
     background-color: var(--button-color);
     cursor: pointer;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-button {
