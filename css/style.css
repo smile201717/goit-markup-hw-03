@@ -65,8 +65,7 @@ ul {
 .header-navigation {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .header {
@@ -106,7 +105,8 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--logo-color);
-
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 
 }
