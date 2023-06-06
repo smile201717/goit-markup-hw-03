@@ -65,14 +65,14 @@ ul {
 .header-navigation {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .header {
     background: #FFFFFF;
     border-bottom: 1px solid #e7e9fc;
-
+    padding-top: 24px;
+    padding-bottom: 24px;
     width: 1158px;
     margin: auto;
 
