@@ -304,6 +304,7 @@ ul {
     background-color: #FFFFFF;
     width: 264px;
     border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 .made-container-name {
