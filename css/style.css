@@ -65,6 +65,8 @@ ul {
 .header-navigation {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header {
@@ -84,8 +86,7 @@ ul {
     text-transform: uppercase;
     color: var(--button-color);
     margin-right: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .header-name span {
@@ -426,7 +427,6 @@ ul {
     border: 1px solid #e7e9fc;
     border-top: none;
     padding-top: 32px;
-    padding-left: 16px;
     padding-bottom: 32px;
 }
 
@@ -443,6 +443,7 @@ ul {
     letter-spacing: 0.02em;
     color: var(--logo-color);
     margin-bottom: 8px;
+    padding-left: 16px;
 
 }
 
@@ -452,4 +453,5 @@ ul {
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: var(--text-section-color);
+    padding-left: 16px;
 }
