@@ -74,6 +74,8 @@ ul {
     border-bottom: 1px solid #e7e9fc;
     padding-top: 24px;
     padding-bottom: 24px;
+    width: 1440px;
+    margin: auto;
 
 }
 
@@ -143,7 +145,7 @@ ul {
 
 .hero {
     width: 100%;
-    width: 1440px;
+    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
     height: 600px;
@@ -152,7 +154,6 @@ ul {
 }
 
 /*.hero-container {  
-    max-width: 1440px;
 }*/
 
 .hero-name {
