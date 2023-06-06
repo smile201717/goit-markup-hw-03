@@ -440,8 +440,8 @@ ul {
 
     border: 1px solid #e7e9fc;
     border-top: none;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 16px;
+
 }
 
 /*.list {}*/
