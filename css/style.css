@@ -249,7 +249,9 @@ ul {
 
 /*----------WORK-----------*/
 
-/*.work-are {}*/
+.work-are {
+    padding-bottom: 120px;
+}
 
 .work-name {
     font-weight: 700;
@@ -260,12 +262,12 @@ ul {
     text-transform: capitalize;
     color: var(--logo-color);
     margin-bottom: 72px;
-    gap: 24px;
+
 }
 
 .work-list {
     display: flex;
-    padding-bottom: 120px;
+    gap: 24px;
 
 }
 
