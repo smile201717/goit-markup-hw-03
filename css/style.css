@@ -141,17 +141,19 @@ ul {
 
 /*----------HERO-----------*/
 
-/*.hero {
-}*/
-
-.hero-container {
+.hero {
     width: 100%;
-    max-width: 1440px;
+    width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
     height: 600px;
     background: var(--logo-color);
-
-
+    margin: auto;
 }
+
+/*.hero-container {  
+    max-width: 1440px;
+}*/
 
 .hero-name {
     font-family: 'Roboto';
@@ -178,8 +180,7 @@ ul {
     color: #FFFFFF;
     background-color: var(--button-color);
     cursor: pointer;
-    padding-top: 188px;
-    padding-bottom: 188px;
+
 }
 
 .hero-button {
