@@ -200,7 +200,10 @@ ul {
 
 /*----------SECTION1-----------*/
 
-/*.scroll {}*/
+.scroll {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 
 .visually-hidden {
@@ -224,8 +227,7 @@ ul {
 
 .scroll-item {
     width: calc((100%-72)/4);
-    padding-top: 120px;
-    padding-bottom: 120px;
+
 }
 
 .scroll-name {
