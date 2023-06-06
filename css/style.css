@@ -65,7 +65,7 @@ ul {
 .header-navigation {
     display: flex;
     align-items: center;
-
+    height: 72px;
 }
 
 .header {
